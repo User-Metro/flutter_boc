@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class UserView extends StatelessWidget {
-  const UserView({
+class SettingsView extends StatelessWidget {
+  const SettingsView({
     Key? key,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-     return const Center(
+    return const Center(
       child: Text('Page settings'),
     );
       

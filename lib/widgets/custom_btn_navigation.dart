@@ -29,18 +29,15 @@ builder: (context, state) {
       btnNavigationBloc.add(TabChangeEvent(index));
     },
     items: const [
-      BottomNavigationBarItem(icon: Icon(Icons.android), label: 'User'),
-      BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
       BottomNavigationBarItem(icon: Icon(Icons.settings_applications), label: 'Settings'),
+      BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+      BottomNavigationBarItem(icon: Icon(Icons.android), label: 'User'),
     ],
   );
 },
 );
 
 }
-
-
-
 
 }
 

@@ -4,7 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:test_app/widgets/custom_btn_navigation.dart';
 
 import 'package:test_app/views/home_view.dart';
-import 'package:test_app/views/user_view.dart';
+import 'package:test_app/screens/users_screen.dart';
 import 'package:test_app/views/settings_view.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -16,7 +16,7 @@ Widget build(BuildContext context) {
 List<Widget> myList = [
   const SettingsView(),
   const HomeView(),
-  const UserView(),
+  const UserScreen(),
 ];
     
 return BlocProvider(
